@@ -1,9 +1,9 @@
-package pages;
+package com.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utilities.Driver;
+import com.utilities.Driver;
 
 public abstract class AbstractBasePage {
 

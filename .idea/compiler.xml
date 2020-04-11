@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Btrix24-_Project" />
+        <module name="Btrix24-_Project1" />
         <module name="Btrix24_Project" />
+        <module name="Btrix24-_Project" />
       </profile>
     </annotationProcessing>
   </component>

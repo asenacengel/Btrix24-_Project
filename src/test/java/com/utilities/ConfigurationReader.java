@@ -1,7 +1,4 @@
-package utilities;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+package com.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;
