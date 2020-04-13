@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a631ea05-11b5-4ba2-9650-c8e62d89c28d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/TaskPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tests/TaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/AbstractBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/AbstractBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/AbstractTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/AbstractTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utilities/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/utilities/DateTimeUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utilities/DateTimeUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/AbstractBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/AbstractBasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,8 +32,13 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1aKaWdZFmzq4BKOM0NIZJyERoVJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,8 +57,62 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TaskTest.verifyToAddCheckListByMark">
+    <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.LoginTest" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.LoginTest" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.LoginTest" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project1" />
       <extension name="coverage">
         <pattern>
@@ -66,25 +121,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.verifyPageTitle (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.TaskTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,79 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.verifyPageTitle (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.LoginTest" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.LoginTest" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.LoginTest" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskTest.verifyTheAddMention" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project1" />
       <extension name="coverage">
         <pattern>
@@ -172,9 +138,63 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.LoginTest" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.TaskTest" />
+      <option name="METHOD_NAME" value="verifyTheAddMention" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTest.verifyTheLink" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.TaskTest" />
+      <option name="METHOD_NAME" value="verifyTheLink" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTest.verifyToAddCheckListByMark" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.TaskTest" />
+      <option name="METHOD_NAME" value="verifyToAddCheckListByMark" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTest.verifyToCreateCheckList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.TaskTest" />
+      <option name="METHOD_NAME" value="verifyToCreateCheckList" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -184,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.verifyPageTitle (3)" />
-        <item itemvalue="TestNG.LoginTest.verifyPageTitle" />
-        <item itemvalue="TestNG.LoginTest.verifyPageTitle (2)" />
-        <item itemvalue="TestNG.LoginTest.verifyPageTitle (1)" />
+        <item itemvalue="TestNG.TaskTest.verifyToAddCheckListByMark" />
+        <item itemvalue="TestNG.TaskTest.verifyToCreateCheckList" />
+        <item itemvalue="TestNG.TaskTest.verifyTheLink" />
+        <item itemvalue="TestNG.TaskTest.verifyTheAddMention" />
+        <item itemvalue="TestNG.TaskTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +251,10 @@
     </state>
     <state x="523" y="193" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1586620987895" />
     <state x="488" y="209" key="#Project_Structure/0.23.1792.1042@0.23.1792.1042" timestamp="1586496597690" />
+    <state x="100" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586727286798">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586727286798" />
     <state x="264" y="472" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586621052665">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -247,34 +271,47 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490709539" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1586621350504">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1302" height="352" key="GridCell.Tab.0.bottom" timestamp="1586746992784">
+      <screen x="0" y="0" width="1344" height="840" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586621350504" />
+    <state width="1302" height="352" key="GridCell.Tab.0.bottom/0.0.1344.840@0.0.1344.840" timestamp="1586746992784" />
+    <state width="1878" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586728004074" />
     <state width="1735" height="285" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1586621350502">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1302" height="352" key="GridCell.Tab.0.center" timestamp="1586746992783">
+      <screen x="0" y="0" width="1344" height="840" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586621350502" />
+    <state width="1302" height="352" key="GridCell.Tab.0.center/0.0.1344.840@0.0.1344.840" timestamp="1586746992783" />
+    <state width="1878" height="414" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586728004073" />
     <state width="1735" height="285" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1586621350501">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1302" height="352" key="GridCell.Tab.0.left" timestamp="1586746992782">
+      <screen x="0" y="0" width="1344" height="840" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586621350501" />
+    <state width="1302" height="352" key="GridCell.Tab.0.left/0.0.1344.840@0.0.1344.840" timestamp="1586746992782" />
+    <state width="1878" height="414" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586728004072" />
     <state width="1735" height="285" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229323" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1586621350503">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1302" height="352" key="GridCell.Tab.0.right" timestamp="1586746992784">
+      <screen x="0" y="0" width="1344" height="840" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586621350503" />
+    <state width="1302" height="352" key="GridCell.Tab.0.right/0.0.1344.840@0.0.1344.840" timestamp="1586746992784" />
+    <state width="1878" height="414" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586728004074" />
     <state width="1735" height="285" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
     <state x="0" y="121" key="SettingsEditor" timestamp="1586620929047">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586620929046" />
-    <state x="496" y="284" key="Vcs.Push.Dialog.v2" timestamp="1586490726638">
-      <screen x="0" y="23" width="1792" height="1042" />
+    <state x="531" y="271" key="Vcs.Push.Dialog.v2" timestamp="1586621412439">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="531" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586621412439" />
     <state x="496" y="284" key="Vcs.Push.Dialog.v2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490726638" />
+    <state x="49" y="237" key="new project wizard" timestamp="1586625435907">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="49" y="237" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1586625435907" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1586725692465">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586725692465" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Btrix24__Project1$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1586621077042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
