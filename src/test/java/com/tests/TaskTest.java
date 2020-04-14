@@ -110,7 +110,7 @@ public class TaskTest extends AbstractTestBase {
         extentTest.pass("Create checklist successful");
 
     }
-    @Test
+    @Test(description = "User can add a checklist item by clicking  check mark.")
     public void verifyToAddCheckListByMark(){
         extentTest = extentReports.createTest("Verify to add checklist by check mark");
         LoginPage loginPage = new LoginPage();
@@ -125,6 +125,45 @@ public class TaskTest extends AbstractTestBase {
         extentTest.pass("Check mark to add checklist successful");
 
     }
+
+    @Test(description = "Verify User can add a checklist item by clicking on add button .")
+    public void verifyToAddCheckListByAddButton(){
+        extentTest = extentReports.createTest("Verify to add checklist by check mark");
+        LoginPage loginPage = new LoginPage();
+        TaskPage p = new TaskPage();
+        loginPage.login();
+        p.navigateTo("Tasks");
+        p.createNewTask();
+        BrowserUtils.waitForPageToLoad(10);
+        String addText = "AddList";
+        String addList = p.addCheckListByAddButton(addText);
+        Assert.assertEquals(addList,addText);
+        extentTest.pass("Add button to add checklist successful");
+    }
+
+    @Test(description = "Verify User can add separator lines between checklist items.")
+    public void verifyTheSeparatorLine(){
+        extentTest = extentReports.createTest("Verify the separator line is displayed");
+        LoginPage loginPage = new LoginPage();
+        TaskPage p = new TaskPage();
+        loginPage.login();
+        p.navigateTo("Tasks");
+        p.createNewTask();
+        BrowserUtils.waitForPageToLoad(10);
+        Assert.assertTrue(p.AddSeparatorLine());
+    }
+    @Test(description = "Verify User can delete a checklist item by clicking on x mark.")
+    public void verifyDeleteByxButton(){
+        extentTest = extentReports.createTest("Verify delete checklist by x mark");
+        LoginPage loginPage = new LoginPage();
+        TaskPage p = new TaskPage();
+        loginPage.login();
+        p.navigateTo("Tasks");
+        p.createNewTask();
+        BrowserUtils.waitForPageToLoad(10);
+        p.deleteCheckListByxMark();
+    }
+
 
 
 

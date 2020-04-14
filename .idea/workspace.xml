@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a631ea05-11b5-4ba2-9650-c8e62d89c28d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/TaskPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tests/TaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/AbstractBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/AbstractBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/TaskPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/TaskPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/TaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TaskTest.verifyToAddCheckListByMark">
+  <component name="RunManager" selected="TestNG.TaskTest.verifyDeleteByxButton">
     <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project" />
       <extension name="coverage">
@@ -112,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskTest.verifyDeleteByxButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project1" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +121,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tests" />
       <option name="MAIN_CLASS_NAME" value="com.tests.TaskTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="verifyDeleteByxButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest.verifyTheAddMention" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskTest.verifyTheSeparatorLine" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project1" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +139,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tests" />
       <option name="MAIN_CLASS_NAME" value="com.tests.TaskTest" />
-      <option name="METHOD_NAME" value="verifyTheAddMention" />
+      <option name="METHOD_NAME" value="verifyTheSeparatorLine" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTest.verifyTheLink" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskTest.verifyToAddCheckListByAddButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project1" />
       <extension name="coverage">
         <pattern>
@@ -158,7 +157,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tests" />
       <option name="MAIN_CLASS_NAME" value="com.tests.TaskTest" />
-      <option name="METHOD_NAME" value="verifyTheLink" />
+      <option name="METHOD_NAME" value="verifyToAddCheckListByAddButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -204,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TaskTest.verifyDeleteByxButton" />
+        <item itemvalue="TestNG.TaskTest.verifyToAddCheckListByAddButton" />
+        <item itemvalue="TestNG.TaskTest.verifyTheSeparatorLine" />
         <item itemvalue="TestNG.TaskTest.verifyToAddCheckListByMark" />
         <item itemvalue="TestNG.TaskTest.verifyToCreateCheckList" />
-        <item itemvalue="TestNG.TaskTest.verifyTheLink" />
-        <item itemvalue="TestNG.TaskTest.verifyTheAddMention" />
-        <item itemvalue="TestNG.TaskTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586490709670</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tasks">
+      <created>1586747074171</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586747074171</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +249,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="target" />
-    <option name="LAST_COMMIT_MESSAGE" value="target" />
+    <MESSAGE value="Tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="523" y="193" key="#Project_Structure" timestamp="1586620987895">
@@ -267,41 +274,43 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="626" y="298" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1586498302164" />
-    <state x="479" y="144" key="CommitChangelistDialog2" timestamp="1586490709539">
-      <screen x="0" y="23" width="1792" height="1042" />
-    </state>
-    <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490709539" />
-    <state width="1302" height="352" key="GridCell.Tab.0.bottom" timestamp="1586746992784">
+    <state x="359" y="34" key="CommitChangelistDialog2" timestamp="1586747074024">
       <screen x="0" y="0" width="1344" height="840" />
     </state>
-    <state width="1302" height="352" key="GridCell.Tab.0.bottom/0.0.1344.840@0.0.1344.840" timestamp="1586746992784" />
+    <state x="359" y="34" key="CommitChangelistDialog2/0.0.1344.840@0.0.1344.840" timestamp="1586747074024" />
+    <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490709539" />
+    <state width="1302" height="261" key="GridCell.Tab.0.bottom" timestamp="1586796951360">
+      <screen x="0" y="0" width="1344" height="840" />
+    </state>
+    <state width="1302" height="261" key="GridCell.Tab.0.bottom/0.0.1344.840@0.0.1344.840" timestamp="1586796951360" />
     <state width="1878" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586728004074" />
     <state width="1735" height="285" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
-    <state width="1302" height="352" key="GridCell.Tab.0.center" timestamp="1586746992783">
+    <state width="1302" height="261" key="GridCell.Tab.0.center" timestamp="1586796951358">
       <screen x="0" y="0" width="1344" height="840" />
     </state>
-    <state width="1302" height="352" key="GridCell.Tab.0.center/0.0.1344.840@0.0.1344.840" timestamp="1586746992783" />
+    <state width="1302" height="261" key="GridCell.Tab.0.center/0.0.1344.840@0.0.1344.840" timestamp="1586796951358" />
     <state width="1878" height="414" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586728004073" />
     <state width="1735" height="285" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
-    <state width="1302" height="352" key="GridCell.Tab.0.left" timestamp="1586746992782">
+    <state width="1302" height="261" key="GridCell.Tab.0.left" timestamp="1586796951357">
       <screen x="0" y="0" width="1344" height="840" />
     </state>
-    <state width="1302" height="352" key="GridCell.Tab.0.left/0.0.1344.840@0.0.1344.840" timestamp="1586746992782" />
+    <state width="1302" height="261" key="GridCell.Tab.0.left/0.0.1344.840@0.0.1344.840" timestamp="1586796951357" />
     <state width="1878" height="414" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586728004072" />
     <state width="1735" height="285" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229323" />
-    <state width="1302" height="352" key="GridCell.Tab.0.right" timestamp="1586746992784">
+    <state width="1302" height="261" key="GridCell.Tab.0.right" timestamp="1586796951360">
       <screen x="0" y="0" width="1344" height="840" />
     </state>
-    <state width="1302" height="352" key="GridCell.Tab.0.right/0.0.1344.840@0.0.1344.840" timestamp="1586746992784" />
+    <state width="1302" height="261" key="GridCell.Tab.0.right/0.0.1344.840@0.0.1344.840" timestamp="1586796951360" />
     <state width="1878" height="414" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586728004074" />
     <state width="1735" height="285" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
     <state x="0" y="121" key="SettingsEditor" timestamp="1586620929047">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586620929046" />
-    <state x="531" y="271" key="Vcs.Push.Dialog.v2" timestamp="1586621412439">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="372" y="211" key="Vcs.Push.Dialog.v2" timestamp="1586747076332">
+      <screen x="0" y="0" width="1344" height="840" />
     </state>
+    <state x="372" y="211" key="Vcs.Push.Dialog.v2/0.0.1344.840@0.0.1344.840" timestamp="1586747076332" />
     <state x="531" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586621412439" />
     <state x="496" y="284" key="Vcs.Push.Dialog.v2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490726638" />
     <state x="49" y="237" key="new project wizard" timestamp="1586625435907">

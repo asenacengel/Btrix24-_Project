@@ -4,6 +4,7 @@ import com.utilities.BrowserUtils;
 import org.apache.poi.xssf.usermodel.XSSFPivotTable;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
@@ -66,6 +67,18 @@ public class TaskPage extends AbstractBasePage {
     private WebElement checkListTitle;
     @FindBy(xpath = "//input[@class=\"js-id-checklist-is-form-title task-checklist-field-add\"]")
     private WebElement addInput;
+    @FindBy(xpath = "//span[@class=\"js-id-checklist-is-add-separator task-dashed-link-inner\"]")
+    private WebElement separator;
+    @FindBy(xpath = "//div[@class='js-id-checklist-is-i-drag-handle task-field-divider separator']")
+    private WebElement separatorLine;
+    @FindBy(xpath = "//span[@class='js-id-checklist-is-open-form task-dashed-link-inner']")
+    private WebElement addButton;
+    @FindBy(xpath = "//span[@class='js-id-checklist-is-form-close tasks-btn-delete task-field-title-del']")
+    private WebElement xButton;
+    @FindBy(xpath = "(//label[@class=\"block-read task-checklist-field-label\"])[2]")
+    private WebElement getAddLinkText;
+    @FindBy(xpath = "(//span[@class=\"js-id-checklist-is-i-delete task-field-title-del tasks-btn-delete\"])[2]")
+    private WebElement deleteButton;
     // to create a new task
     public void createNewTask() {
         BrowserUtils.waitForPageToLoad(10);
@@ -162,21 +175,55 @@ public class TaskPage extends AbstractBasePage {
         String defaultText = checkListInput.getAttribute("placeholder");
         return defaultText;
     }
-    // User can add a checklist item by clicking on add button or check mark.
+    // User can add a checklist item by clicking on check mark.
     public String addCheckListByCheckMark(String text){
         BrowserUtils.waitForPageToLoad(10);
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(sidePanelTaskFrame));
         wait.until(ExpectedConditions.elementToBeClickable(checkList)).click();
 
         wait.until(ExpectedConditions.visibilityOf(addInput)).sendKeys(text);
-
         wait.until(ExpectedConditions.elementToBeClickable(addCheckMark)).click();
-
         return checkListTitle.getText().trim();
+    }
+    //User can add a checklist item by clicking on add button .
+    public String addCheckListByAddButton(String text){
+        BrowserUtils.waitForPageToLoad(10);
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(sidePanelTaskFrame));
+        wait.until(ExpectedConditions.elementToBeClickable(checkList)).click();
+
+        wait.until(ExpectedConditions.visibilityOf(addInput)).sendKeys(text);
+        wait.until(ExpectedConditions.elementToBeClickable(addButton)).click();
+        return checkListTitle.getText().trim();
+    }
+
+    // User can add separator lines between checklist items.
+    public boolean AddSeparatorLine(){
+        BrowserUtils.waitForPageToLoad(10);
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(sidePanelTaskFrame));
+        wait.until(ExpectedConditions.elementToBeClickable(checkList)).click();
+
+        wait.until(ExpectedConditions.elementToBeClickable(separator)).click();
+        return separatorLine.isDisplayed();
 
     }
-    // User can add separator lines between checklist items.
+
     // User can delete a checklist item by clicking on x mark.
+    public void deleteCheckListByxMark(){
+        BrowserUtils.waitForPageToLoad(10);
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(sidePanelTaskFrame));
+        wait.until(ExpectedConditions.elementToBeClickable(checkList)).click();
+
+        wait.until(ExpectedConditions.visibilityOf(addInput)).sendKeys("add1");
+        wait.until(ExpectedConditions.elementToBeClickable(addButton)).click();
+        Actions actions = new Actions(driver);
+        BrowserUtils.wait(2);
+        actions.moveToElement(getAddLinkText).click().perform();
+
+    }
+    //8. User can assign the tasks to employees by clicking on Add More
+    // and selecting contact from E-mail user, Employees and Departments
+    // and Recent contact lists. Employees can be added in different assignment categories
+    // : Created By, Participants and Observer.
 
 
 }
