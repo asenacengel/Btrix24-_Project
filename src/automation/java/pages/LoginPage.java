@@ -4,11 +4,12 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utilities.BrowserUtils;
+import src.automation.java.utilities.BrowserUtils;
+
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class LoginPage extends AbstractBasePage {
+public class LoginPage extends pages.AbstractBasePage {
 
     @FindBy(name = "USER_LOGIN")
     private WebElement username;

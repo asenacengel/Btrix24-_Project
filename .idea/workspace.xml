@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a631ea05-11b5-4ba2-9650-c8e62d89c28d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/automation/java/pages/ActiveStreamPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_5_CreateQuote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_6_AddMention.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/AbstractTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/AbstractTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sampleClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,27 +20,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1aKaWdZFmzq4BKOM0NIZJyERoVJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tests" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.UserStory_1_AC_5_CreateQuote.test">
+  <component name="RunManager" selected="TestNG.LoginTest.verifyPageTitle">
+    <configuration name="LoginTest.verifyPageTitle (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.verifyPageTitle (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project" />
       <extension name="coverage">
@@ -64,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory_1_AC_5_CreateQuote.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Try.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +106,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserStory_1_AC_5_CreateQuote" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="tests.Try" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -82,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserStory_1_AC_5_CreateQuote.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ar.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project" />
       <extension name="coverage">
         <pattern>
@@ -91,79 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserStory_1_AC_5_CreateQuote" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserStory_1_AC_6_AddMention" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserStory_1_AC_6_AddMention" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserStory_1_AC_6_AddMention.test (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserStory_1_AC_6_AddMention" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserStory_1_AC_6_AddMention.test (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserStory_1_AC_6_AddMention" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserStory_1_AC_6_AddMention.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.UserStory_1_AC_6_AddMention" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="tests.ar" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UserStory_1_AC_5_CreateQuote.test" />
-        <item itemvalue="TestNG.UserStory_1_AC_6_AddMention.test" />
-        <item itemvalue="TestNG.UserStory_1_AC_6_AddMention.test (4)" />
-        <item itemvalue="TestNG.UserStory_1_AC_6_AddMention" />
-        <item itemvalue="TestNG.UserStory_1_AC_6_AddMention.test (3)" />
+        <item itemvalue="TestNG.LoginTest.verifyPageTitle" />
+        <item itemvalue="TestNG.LoginTest.verifyPageTitle (2)" />
+        <item itemvalue="TestNG.LoginTest.verifyPageTitle (1)" />
+        <item itemvalue="TestNG.ar.test1" />
+        <item itemvalue="TestNG.Try.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -196,14 +158,6 @@
       <workItem from="1586554179598" duration="50000" />
       <workItem from="1586568540513" duration="10000" />
       <workItem from="1586568588501" duration="1000" />
-      <workItem from="1586895619314" duration="5455000" />
-      <workItem from="1586901478591" duration="7000" />
-      <workItem from="1586901576009" duration="90000" />
-      <workItem from="1586901785593" duration="4000" />
-      <workItem from="1586915424116" duration="13000" />
-      <workItem from="1586916114095" duration="75000" />
-      <workItem from="1586917972458" duration="6405000" />
-      <workItem from="1586925228564" duration="4201000" />
     </task>
     <task id="LOCAL-00001" summary="target">
       <created>1586490709670</created>
@@ -216,7 +170,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="target" />
@@ -227,14 +181,6 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="488" y="209" key="#Project_Structure/0.23.1792.1042@0.23.1792.1042" timestamp="1586496597690" />
-    <state x="709" y="257" key="#com.intellij.ide.util.MemberChooser" timestamp="1586896623798">
-      <screen x="0" y="23" width="1792" height="1042" />
-    </state>
-    <state x="709" y="257" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1042@0.23.1792.1042" timestamp="1586896623798" />
-    <state x="666" y="445" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586918029935">
-      <screen x="0" y="23" width="1792" height="1042" />
-    </state>
-    <state x="666" y="445" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1042@0.23.1792.1042" timestamp="1586918029935" />
     <state x="626" y="298" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586498302164">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
@@ -243,26 +189,22 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490709539" />
-    <state width="1750" height="285" key="GridCell.Tab.0.bottom" timestamp="1586929451587">
+    <state width="1735" height="285" key="GridCell.Tab.0.bottom" timestamp="1586554229324">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state width="1750" height="285" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586929451587" />
-    <state width="1750" height="285" key="GridCell.Tab.0.center" timestamp="1586929451587">
+    <state width="1735" height="285" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
+    <state width="1735" height="285" key="GridCell.Tab.0.center" timestamp="1586554229324">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state width="1750" height="285" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586929451587" />
-    <state width="1750" height="285" key="GridCell.Tab.0.left" timestamp="1586929451586">
+    <state width="1735" height="285" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
+    <state width="1735" height="285" key="GridCell.Tab.0.left" timestamp="1586554229323">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state width="1750" height="285" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586929451586" />
-    <state width="1750" height="285" key="GridCell.Tab.0.right" timestamp="1586929451587">
+    <state width="1735" height="285" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229323" />
+    <state width="1735" height="285" key="GridCell.Tab.0.right" timestamp="1586554229324">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state width="1750" height="285" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586929451587" />
-    <state x="397" y="183" key="SettingsEditor" timestamp="1586926497283">
-      <screen x="0" y="23" width="1792" height="1042" />
-    </state>
-    <state x="397" y="183" key="SettingsEditor/0.23.1792.1042@0.23.1792.1042" timestamp="1586926497283" />
+    <state width="1735" height="285" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
     <state x="496" y="284" key="Vcs.Push.Dialog.v2" timestamp="1586490726638">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>

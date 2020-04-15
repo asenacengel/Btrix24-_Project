@@ -3,10 +3,11 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
-import utilities.BrowserUtils;
+import src.automation.java.utilities.BrowserUtils;
+
 import utilities.Driver;
 
-public class LoginTest extends AbstractTestBase {
+public class LoginTest extends tests.AbstractTestBase {
 
     @Test
     public void verifyPageTitle() {
