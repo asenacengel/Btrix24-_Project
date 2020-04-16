@@ -25,14 +25,7 @@
       <change beforePath="$PROJECT_DIR$/bin/src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/src/test/java/com/tests/UserStory_1_AC_6_AddMention.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/test/java/com/tests/UserStory_1_AC_6_AddMention.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/src/test/java/com/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/test/java/com/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/AbstractBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/AbstractBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/ActiveStreamPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/ActiveStreamPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/DownloadTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/DownloadTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/automation/java/tests/AbstractTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/AbstractTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_5_CreateQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_5_CreateQuote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_6_AddMention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_6_AddMention.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +41,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1aKaWdZFmzq4BKOM0NIZJyERoVJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
