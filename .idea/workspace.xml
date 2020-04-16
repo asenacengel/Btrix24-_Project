@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a631ea05-11b5-4ba2-9650-c8e62d89c28d" name="Default Changelist" comment="" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,21 +16,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1aKaWdZFmzq4BKOM0NIZJyERoVJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -183,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="target" />
-    <option name="LAST_COMMIT_MESSAGE" value="target" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/userstory2'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;src/test/java/com/pages/ActiveStreamPage.java&#10;#&#9;src/test/java/com/pages/DownloadTestBase.java&#10;#&#9;src/test/java/com/pages/LoginPage.java&#10;#&#9;src/test/java/com/tests/AbstractTestBase.java&#10;#&#9;src/test/java/com/tests/LoginTest.java&#10;#&#9;src/test/java/com/tests/UserStory_11_AC1_2_3.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_6_AddMention.java&#10;#&#9;src/test/java/com/utilities/BrowserUtils.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/userstory2'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;src/test/java/com/pages/ActiveStreamPage.java&#10;#&#9;src/test/java/com/pages/DownloadTestBase.java&#10;#&#9;src/test/java/com/pages/LoginPage.java&#10;#&#9;src/test/java/com/tests/AbstractTestBase.java&#10;#&#9;src/test/java/com/tests/LoginTest.java&#10;#&#9;src/test/java/com/tests/UserStory_11_AC1_2_3.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_6_AddMention.java&#10;#&#9;src/test/java/com/utilities/BrowserUtils.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="209" key="#Project_Structure" timestamp="1586496597690">
@@ -195,9 +190,10 @@
     </state>
     <state x="537" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586737746170" />
     <state x="626" y="298" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1586498302164" />
-    <state x="479" y="144" key="CommitChangelistDialog2" timestamp="1586490709539">
-      <screen x="0" y="23" width="1792" height="1042" />
+    <state x="385" y="0" key="CommitChangelistDialog2" timestamp="1587011891132">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587011891132" />
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490709539" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587069422747">
       <screen x="0" y="0" width="1536" height="824" />
@@ -227,13 +223,6 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="496" y="284" key="Vcs.Push.Dialog.v2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490726638" />
-    <state x="598" y="252" key="export.test.results" timestamp="1586804624563">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="598" y="252" key="export.test.results/0.0.1536.824@0.0.1536.824" timestamp="1586804624563" />
-    <state x="209" y="120" key="new project wizard" timestamp="1586985952748">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586985952748" />
+
   </component>
 </project>
