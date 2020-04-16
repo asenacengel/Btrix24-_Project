@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -51,7 +52,7 @@ public class BrowserUtils {
     public static void waitForPageToLoad(long timeOutInSeconds) {
         ExpectedCondition<Boolean> expectation = driver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
         try {
-            WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeOutInSeconds);
+            WebDriverWait wait = new WebDriverWait(utilities.Driver.getDriver(), timeOutInSeconds);
             wait.until(expectation);
         } catch (Throwable error) {
             error.printStackTrace();
@@ -64,8 +65,8 @@ public class BrowserUtils {
      * @param element
      */
     public static void clickWithJS(WebElement element) {
-        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
-        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
+        ((JavascriptExecutor) utilities.Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) utilities.Driver.getDriver()).executeScript("arguments[0].click();", element);
     }
 
     /**
@@ -74,7 +75,7 @@ public class BrowserUtils {
      * @param element
      */
     public static void scrollTo(WebElement element) {
-        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) utilities.Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
     /**
@@ -98,7 +99,7 @@ public class BrowserUtils {
         //since our reference type is a WebDriver
         //we cannot see methods from TakesScreenshot interface
         //that's why do casting
-        TakesScreenshot takesScreenshot = (TakesScreenshot) Driver.getDriver();
+        TakesScreenshot takesScreenshot = (TakesScreenshot) utilities.Driver.getDriver();
         //take screenshot of web browser, and save it as a file
         File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
         //where screenshot will be saved
@@ -119,10 +120,10 @@ public class BrowserUtils {
      * @param title of the window to switch
      */
     public static void switchWindow(String title) {
-        Set<String> windowHandles = Driver.getDriver().getWindowHandles();
+        Set<String> windowHandles = utilities.Driver.getDriver().getWindowHandles();
         for (String window : windowHandles) {
-            Driver.getDriver().switchTo().window(window);
-            if (Driver.getDriver().getTitle().equals(title)) {
+            utilities.Driver.getDriver().switchTo().window(window);
+            if (utilities.Driver.getDriver().getTitle().equals(title)) {
                 break;
             }
         }
