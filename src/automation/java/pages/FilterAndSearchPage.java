@@ -1,10 +1,11 @@
-package pages;
+package src.automation.java.pages;
 
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import utilities.BrowserUtils;
+import src.automation.java.pages.AbstractBasePage;
+import src.automation.java.utilities.BrowserUtils;
 
 import java.util.Arrays;
 import java.util.List;
