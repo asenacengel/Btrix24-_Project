@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a631ea05-11b5-4ba2-9650-c8e62d89c28d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/automation/java/pages/FilterAndSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/java/tests/FilterAndSearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/AbstractBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/AbstractBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
