@@ -20,6 +20,7 @@ public class LoginTest extends AbstractTestBase {
 
 
         BrowserUtils.wait(2);
+        System.out.println(Driver.getDriver().getTitle());
         Assert.assertEquals(Driver.getDriver().getTitle(), "Portal");
         //if assertion passed, it will set test status in report to passed
 

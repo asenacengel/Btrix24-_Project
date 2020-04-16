@@ -1,15 +1,12 @@
 package tests;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import pages.LoginPage;
-import pages.Userstory1Page;
+import pages.Message;
 import utilities.BrowserUtils;
 
-public class Userstory1Test extends AbstractTestBase {
+public class US1Test extends AbstractTestBase {
     /*
 userstory1. As a user, I should be able to send messages by clicking on Message tab under Active Stream.
 
@@ -25,35 +22,58 @@ download from external drive, select documents from bixtrix24, and create files 
 9. User should be able to click on "Record Video" tab to record a video and attach it with the message.
      */
 
-@Test
-    public void messagetest(){
-    extentTest=extentReports.createTest("verify message click");
-    LoginPage loginPage= new LoginPage();
-    Userstory1Page us1= new Userstory1Page();
+    @Test(description = "AC-1:upload files and pictures from local disks")
+    public void test1() {
+        extentTest = extentReports.createTest("verify upload file from local disk");
+        LoginPage loginPage = new LoginPage();
+        Message us1 = new Message();
+
+        loginPage.login();
+        us1.messageClick();
+        us1.setUploadFiles();
+        us1.pathmethod();
+
+    }
 
 
-    loginPage.login();
-    us1.messageclick();
-    us1.setUploadFiles();
-    us1.pathmethod();
-    us1.send();
-}
+    @Test(description = "select documents from bixtrix24")
+    public void test2() {
+        extentTest = extentReports.createTest("verify get document from Btrix24");
+        LoginPage loginPage = new LoginPage();
+        Message us1 = new Message();
+
+        loginPage.login();
+        us1.messageClick();
+        us1.setUploadFiles();
+        us1.selectDocumentFromBitrix24();
+
+    }
 
 
-@Test
-    public void text2(){
-    extentTest=extentReports.createTest("verify message click");
-    LoginPage loginPage= new LoginPage();
-    Userstory1Page us1= new Userstory1Page();
-
-    loginPage.login();
-    us1.messageclick();
-    us1.setUploadFiles();
-    us1.selectDocumentFromBitrix24();
-    us1.send();
+    @Test(description = "contact from Recent contact lists")
+    public void test3() {
+        extentTest = extentReports.createTest("verify to add recent list");
+        LoginPage loginPage = new LoginPage();
+        Message us1 = new Message();
+        loginPage.login();
+        us1.messageClick();
+        us1.addUserfromRecent("allemployees");
+    }
 
 
+    @Test (description = "contact from ")
+    public void addContactsToMessage(){
+        extentTest = extentReports.createTest("verify to adding people");
+        LoginPage loginPage = new LoginPage();
+        Message us1 = new Message();
+        loginPage.login();
+        us1.messageClick();
+        String tag= "E-mail users";
+        String mail="helpdesk31@cybertekschool.com";
+        BrowserUtils.wait(3);
+        us1.addUserFromFromEmployeesAndDepartmentsOrEmailList(tag,mail);
 
-}
+
+    }
 
 }
