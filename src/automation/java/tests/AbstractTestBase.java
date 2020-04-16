@@ -1,4 +1,4 @@
-package tests;
+package src.automation.java.tests;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;

@@ -1,4 +1,4 @@
-package pages;
+package src.automation.java.pages;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -9,7 +9,7 @@ import src.automation.java.utilities.BrowserUtils;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class LoginPage extends pages.AbstractBasePage {
+public class LoginPage extends AbstractBasePage {
 
     @FindBy(name = "USER_LOGIN")
     private WebElement username;

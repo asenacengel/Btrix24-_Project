@@ -1,4 +1,4 @@
-package pages;
+package src.automation.java.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
