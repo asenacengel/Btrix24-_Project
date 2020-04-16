@@ -4,6 +4,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+
 import utilities.BrowserUtils;
 import utilities.ConfigurationReader;
 import utilities.Driver;
@@ -43,7 +45,7 @@ public class LoginPage extends AbstractBasePage {
         username.sendKeys(ConfigurationReader.getProperty("username"));
         BrowserUtils.wait(3);
         password.sendKeys(ConfigurationReader.getProperty("password"));
-        BrowserUtils.wait(3);
+        BrowserUtils.wait(5);
         submit.click();
 
         BrowserUtils.wait(3);

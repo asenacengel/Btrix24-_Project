@@ -1,4 +1,4 @@
-package pages;
+package src.automation.java.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -13,5 +13,6 @@ public abstract class AbstractBasePage {
     public AbstractBasePage() {
         PageFactory.initElements(driver, this);
     }
+
 
 }
