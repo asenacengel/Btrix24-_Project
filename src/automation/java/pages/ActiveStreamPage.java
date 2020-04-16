@@ -1,4 +1,4 @@
-package src.automation.java.pages;
+package pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -41,6 +41,28 @@ public class ActiveStreamPage extends AbstractBasePage {
 
     @FindBy(xpath = "(//span[@class='feed-add-post-destination-text'])[3]")
     public WebElement contact_2_Text;
+
+    @FindBy(xpath="//span[text()='Poll']")
+    public WebElement pollTab;
+
+    @FindBy(css="[contenteditable='true']")
+    public WebElement pollFrameBoxText;
+
+    @FindBy(id="question_0")
+    public WebElement question;
+
+    @FindBy(id="answer_0__0_")
+    public WebElement answer1;
+
+    @FindBy(id="answer_0__1_")
+    public WebElement answer2;
+
+    @FindBy(id="answer_0__2_")
+    public WebElement answer3;
+
+    @FindBy(id="blg-post-img-838")
+    public WebElement displayPoll;
+
 
 
 

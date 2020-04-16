@@ -1,10 +1,9 @@
-package src.automation.java.tests;
+package tests;
 
 import org.testng.annotations.Test;
-import src.automation.java.pages.DownloadTestBase;
-import src.automation.java.pages.LoginPage;
-import src.automation.java.utilities.BrowserUtils;
-
+import pages.DownloadTestBase;
+import pages.LoginPage;
+import utilities.BrowserUtils;
 
 
 public class UserStory_11_AC1_2_3 extends DownloadTestBase {
@@ -17,7 +16,7 @@ public class UserStory_11_AC1_2_3 extends DownloadTestBase {
         LoginPage loginPage = new LoginPage();
         super.setup();
         loginPage.login("hr31@cybertekschool.com", "UserUser");
-       BrowserUtils.waitForPageToLoad(3);
+        BrowserUtils.waitForPageToLoad(3);
         driver.findElement(mac_Os).click();
        // extentTest.pass("PASSED");
         BrowserUtils.getScreenshot("mac");
@@ -49,8 +48,6 @@ public class UserStory_11_AC1_2_3 extends DownloadTestBase {
         BrowserUtils.getScreenshot("Linux");
         extentTest.fail("website navigating to github");
         extentReports.flush();
-
-
 
     }
 
