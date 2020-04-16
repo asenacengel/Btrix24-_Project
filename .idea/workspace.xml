@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a631ea05-11b5-4ba2-9650-c8e62d89c28d" name="Default Changelist" comment="">
+    <list default="true" id="a631ea05-11b5-4ba2-9650-c8e62d89c28d" name="Default Changelist" comment="Merge remote-tracking branch 'origin/userstory2'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;src/test/java/com/pages/ActiveStreamPage.java&#10;#&#9;src/test/java/com/pages/DownloadTestBase.java&#10;#&#9;src/test/java/com/pages/LoginPage.java&#10;#&#9;src/test/java/com/tests/AbstractTestBase.java&#10;#&#9;src/test/java/com/tests/LoginTest.java&#10;#&#9;src/test/java/com/tests/UserStory_11_AC1_2_3.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_6_AddMention.java&#10;#&#9;src/test/java/com/utilities/BrowserUtils.java">
       <change beforePath="$PROJECT_DIR$/bin/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.idea/workspace.xml" afterDir="false" />
@@ -25,7 +25,6 @@
       <change beforePath="$PROJECT_DIR$/bin/src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/src/test/java/com/tests/UserStory_1_AC_6_AddMention.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/test/java/com/tests/UserStory_1_AC_6_AddMention.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/src/test/java/com/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/src/test/java/com/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/AbstractTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/AbstractTestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="target" />
-    <option name="LAST_COMMIT_MESSAGE" value="target" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/userstory2'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;src/test/java/com/pages/ActiveStreamPage.java&#10;#&#9;src/test/java/com/pages/DownloadTestBase.java&#10;#&#9;src/test/java/com/pages/LoginPage.java&#10;#&#9;src/test/java/com/tests/AbstractTestBase.java&#10;#&#9;src/test/java/com/tests/LoginTest.java&#10;#&#9;src/test/java/com/tests/UserStory_11_AC1_2_3.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_6_AddMention.java&#10;#&#9;src/test/java/com/utilities/BrowserUtils.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/userstory2'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;src/test/java/com/pages/ActiveStreamPage.java&#10;#&#9;src/test/java/com/pages/DownloadTestBase.java&#10;#&#9;src/test/java/com/pages/LoginPage.java&#10;#&#9;src/test/java/com/tests/AbstractTestBase.java&#10;#&#9;src/test/java/com/tests/LoginTest.java&#10;#&#9;src/test/java/com/tests/UserStory_11_AC1_2_3.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_6_AddMention.java&#10;#&#9;src/test/java/com/utilities/BrowserUtils.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="209" key="#Project_Structure" timestamp="1586496597690">
@@ -201,9 +201,10 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="626" y="298" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1586498302164" />
-    <state x="479" y="144" key="CommitChangelistDialog2" timestamp="1586490709539">
-      <screen x="0" y="23" width="1792" height="1042" />
+    <state x="385" y="0" key="CommitChangelistDialog2" timestamp="1587011891132">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587011891132" />
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490709539" />
     <state width="1735" height="285" key="GridCell.Tab.0.bottom" timestamp="1586554229324">
       <screen x="0" y="23" width="1792" height="1042" />
@@ -225,5 +226,9 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="496" y="284" key="Vcs.Push.Dialog.v2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490726638" />
+    <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587011971109">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587011971109" />
   </component>
 </project>
