@@ -1,9 +1,10 @@
-package tests;
+package src.automation.java.tests;
 
 import org.testng.annotations.Test;
-import pages.DownloadTestBase;
 import pages.LoginPage;
-import utilities.BrowserUtils;
+import src.automation.java.pages.DownloadTestBase;
+import src.automation.java.utilities.BrowserUtils;
+
 
 
 public class UserStory_11_AC1_2_3 extends DownloadTestBase {

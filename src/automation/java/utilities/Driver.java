@@ -1,4 +1,4 @@
-package utilities;
+package src.automation.java.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -29,7 +29,7 @@ public class Driver {
         //create it
         if (driverPool.get() == null) {
             //specify browser type in configuration.properties file
-            String browser = utilities.ConfigurationReader.getProperty("browser").toLowerCase();
+            String browser = ConfigurationReader.getProperty("browser").toLowerCase();
             switch (browser) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();

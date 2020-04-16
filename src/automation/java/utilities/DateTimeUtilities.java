@@ -1,4 +1,4 @@
-package utilities;
+package src.automation.java.utilities;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 
 import src.automation.java.pages.FilterAndSearchPage;
+import src.automation.java.utilities.BrowserUtils;
 import tests.AbstractTestBase;
-import utilities.BrowserUtils;
 
 
 

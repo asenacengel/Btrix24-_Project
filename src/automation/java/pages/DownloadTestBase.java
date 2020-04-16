@@ -1,4 +1,4 @@
-package pages;
+package src.automation.java.pages;
 
 import org.openqa.selenium.By;
 import tests.AbstractTestBase;

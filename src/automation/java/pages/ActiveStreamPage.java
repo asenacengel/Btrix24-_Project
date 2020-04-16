@@ -1,9 +1,9 @@
-package pages;
+package src.automation.java.pages;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
+import src.automation.java.utilities.Driver;
 
 public class ActiveStreamPage extends AbstractBasePage {
 
@@ -62,7 +62,6 @@ public class ActiveStreamPage extends AbstractBasePage {
 
     @FindBy(id="blg-post-img-838")
     public WebElement displayPoll;
-
 
 
 
