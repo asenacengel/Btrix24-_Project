@@ -1,24 +1,25 @@
-package tests;
+package src.automation.java.tests;
 
 import org.testng.annotations.Test;
 
-import pages.FilterAndSearchPage;
 import pages.LoginPage;
 
+import src.automation.java.pages.FilterAndSearchPage;
+import tests.AbstractTestBase;
 import utilities.BrowserUtils;
 
 
 
-public class FilterAndSearchTest extends AbstractTestBase {
-   LoginPage loginPage = new LoginPage();
-   FilterAndSearchPage filterAndSearchPage = new FilterAndSearchPage();
+class FilterAndSearchTest extends AbstractTestBase {
+    LoginPage loginPage = new LoginPage();
+    FilterAndSearchPage filterAndSearchPage = new FilterAndSearchPage();
 
     @Test(priority = 0)
- public void filterSearchBox(){
-     extentTest = extentReports.createTest("Verify search function with different filter");
-     loginPage.login();
-     filterAndSearchPage.clickFilters();
-     extentTest.pass("Search function with different filter");
+    public void filterSearchBox(){
+        extentTest = extentReports.createTest("Verify search function with different filter");
+        loginPage.login();
+        filterAndSearchPage.clickFilters();
+        extentTest.pass("Search function with different filter");
 
     }
     public void differentFilters(){
@@ -61,7 +62,7 @@ public class FilterAndSearchTest extends AbstractTestBase {
 
 
 
- }
+}
 
 
 
