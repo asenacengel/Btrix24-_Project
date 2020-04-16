@@ -1,17 +1,16 @@
-package src.automation.java.tests;
+package tests;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import src.automation.java.pages.AbstractBasePage;
-import src.automation.java.pages.ActiveStreamPage;
-import src.automation.java.pages.LoginPage;
-import src.automation.java.utilities.BrowserUtils;
+
+import pages.ActiveStreamPage;
+import pages.LoginPage;
+import utilities.BrowserUtils;
 import utilities.Driver;
 
-import java.util.concurrent.TimeUnit;
 
 public class UserStory_1_AC_5_CreateQuote extends AbstractTestBase {
 
