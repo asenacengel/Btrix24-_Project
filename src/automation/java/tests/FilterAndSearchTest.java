@@ -1,13 +1,9 @@
 package src.automation.java.tests;
 
 import org.testng.annotations.Test;
-
-
-
 import src.automation.java.pages.FilterAndSearchPage;
 import src.automation.java.pages.LoginPage;
 import src.automation.java.utilities.BrowserUtils;
-
 
 
 
