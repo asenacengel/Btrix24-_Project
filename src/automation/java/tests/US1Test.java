@@ -2,8 +2,13 @@ package src.automation.java.tests;
 
 import org.testng.annotations.Test;
 
+
+import pages.Message;
+import src.automation.java.pages.LoginPage;
+
 import src.automation.java.pages.LoginPage;
 import src.automation.java.pages.Message;
+
 import src.automation.java.utilities.BrowserUtils;
 
 public class US1Test extends AbstractTestBase {
