@@ -1,14 +1,13 @@
-package pages;
+package src.automation.java.pages;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import src.automation.java.utilities.BrowserUtils;
+import src.automation.java.utilities.ConfigurationReader;
+import src.automation.java.utilities.Driver;
 
-
-import utilities.BrowserUtils;
-import utilities.ConfigurationReader;
-import utilities.Driver;
 
 public class LoginPage extends AbstractBasePage {
 

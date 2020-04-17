@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65d10761-4d19-4bfc-8e81-e1c1eae7cf3b" name="Default Changelist" comment="" />
+    <list default="true" id="65d10761-4d19-4bfc-8e81-e1c1eae7cf3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/automation/java/pages/WorkFlowPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automation/java/tests/WorkFlowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/AbstractBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/AbstractBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/ActiveStreamPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/ActiveStreamPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/DownloadTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/DownloadTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/AbstractTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/AbstractTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/FilterAndSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/FilterAndSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/US1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/US1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/UserStory_11_AC1_2_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/UserStory_11_AC1_2_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_5_CreateQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_5_CreateQuote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_6_AddMention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/UserStory_1_AC_6_AddMention.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/UserStory_4_AC_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/UserStory_4_AC_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/automation/java/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/utilities/BrowserUtils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +37,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1aKaWdZFmzq4BKOM0NIZJyERoVJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -31,29 +57,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="TestNG.FilterAndSearchTest.saveFilterFuncntion">
-    <configuration name="FilterAndSearchTest.AC1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.FilterAndSearchTest" />
-      <option name="METHOD_NAME" value="AC1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.WorkFlowTest.WorkFlowTest1">
     <configuration name="FilterAndSearchTest.filterSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project" />
       <extension name="coverage">
@@ -126,13 +134,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkFlowTest.WorkFlowTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.automation.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.automation.java.tests" />
+      <option name="MAIN_CLASS_NAME" value="src.automation.java.tests.WorkFlowTest" />
+      <option name="METHOD_NAME" value="WorkFlowTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WorkFlowTest.WorkFlowTest1" />
         <item itemvalue="TestNG.FilterAndSearchTest.saveFilterFuncntion" />
         <item itemvalue="TestNG.FilterAndSearchTest.searchFunctionality" />
         <item itemvalue="TestNG.FilterAndSearchTest.filterSearchBox" />
         <item itemvalue="TestNG.LoginTest.verifyPageTitle" />
-        <item itemvalue="TestNG.FilterAndSearchTest.AC1" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +167,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a631ea05-11b5-4ba2-9650-c8e62d89c28d" name="Default Changelist" comment="" />
+      <changelist id="65d10761-4d19-4bfc-8e81-e1c1eae7cf3b" name="Default Changelist" comment="" />
       <created>1586486771700</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -185,30 +211,35 @@
     </state>
     <state x="385" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587011891132" />
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490709539" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587069422747">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="10" key="GridCell.Tab.0.bottom" timestamp="1587092720485">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587069422747" />
+    <state width="1877" height="10" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587092720485" />
     <state width="1735" height="285" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587069422747">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="10" key="GridCell.Tab.0.center" timestamp="1587092720484">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587069422747" />
+    <state width="1877" height="10" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587092720484" />
     <state width="1735" height="285" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587069422747">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="10" key="GridCell.Tab.0.left" timestamp="1587092720484">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587069422747" />
+    <state width="1877" height="10" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587092720484" />
     <state width="1735" height="285" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229323" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587069422747">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="10" key="GridCell.Tab.0.right" timestamp="1587092720485">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587069422747" />
+    <state width="1877" height="10" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587092720485" />
     <state width="1735" height="285" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1586655190976">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2231" y="0" key="SettingsEditor" timestamp="1587086655498">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586655190976" />
+    <state x="2231" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587086655498" />
     <state x="496" y="284" key="Vcs.Push.Dialog.v2" timestamp="1586490726638">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
