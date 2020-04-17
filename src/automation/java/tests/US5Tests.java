@@ -2,17 +2,17 @@ package tests;
 
 import org.testng.annotations.Test;
 import pages.LoginPage;
-import pages.US5_MoreTab;
-import utilities.BrowserUtils;
-public class US_5Test extends AbstractTestBase {
+import pages.US5Page;
+
+public class US5Tests extends AbstractTestBase {
     @Test
     public void more(){
         extentTest=extentReports.createTest("more tab");
         LoginPage loginPage=new LoginPage();
         loginPage.login();
-        US5_MoreTab us5_moreTab=new US5_MoreTab();
-        us5_moreTab.more();
-        us5_moreTab.file();
+        US5Page us5_page =new US5Page();
+        us5_page.more();
+        us5_page.file();
         extentTest.pass("The test passed successfully");
     }
     @Test
@@ -20,10 +20,10 @@ public class US_5Test extends AbstractTestBase {
         extentTest=extentReports.createTest("file options");
         LoginPage loginPage=new LoginPage();
         loginPage.login();
-        US5_MoreTab us5_moreTab=new US5_MoreTab();
-        us5_moreTab.more();
-        us5_moreTab.file();
-        us5_moreTab.uploadFilesAndImages();
+        US5Page us5_page =new US5Page();
+        us5_page.more();
+        us5_page.file();
+        us5_page.uploadFilesAndImages();
         extentTest.pass("The test passed successfully");
     }
     @Test
@@ -31,10 +31,10 @@ public class US_5Test extends AbstractTestBase {
         extentTest=extentReports.createTest("file options");
         LoginPage loginPage=new LoginPage();
         loginPage.login();
-        US5_MoreTab us5_moreTab=new US5_MoreTab();
-        us5_moreTab.more();
-        us5_moreTab.file();
-        us5_moreTab.bitrix24();
+        US5Page us5_page =new US5Page();
+        us5_page.more();
+        us5_page.file();
+        us5_page.bitrix24();
         extentTest.pass("The test passed successfully");
     }
     @Test
@@ -42,9 +42,21 @@ public class US_5Test extends AbstractTestBase {
         extentTest=extentReports.createTest("file options");
         LoginPage loginPage=new LoginPage();
         loginPage.login();
-        US5_MoreTab us5_moreTab=new US5_MoreTab();
-        us5_moreTab.more();
-        us5_moreTab.file();
-        us5_moreTab.downloadFromExternalDrive();
+        US5Page us5_page =new US5Page();
+        us5_page.more();
+        us5_page.file();
+        us5_page.downloadFromExternalDrive();
+    }
+
+    @Test
+    public void createGoogleDocs(){
+        extentTest=extentReports.createTest("file options");
+        LoginPage loginPage=new LoginPage();
+        loginPage.login();
+        US5Page us5_page =new US5Page();
+        us5_page.more();
+        us5_page.file();
+        us5_page.googleDocs();
+
     }
 }
