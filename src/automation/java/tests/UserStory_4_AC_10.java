@@ -4,11 +4,11 @@ package src.automation.java.tests;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.LoginPage;
 import src.automation.java.pages.ActiveStreamPage;
+import src.automation.java.pages.LoginPage;
 import src.automation.java.utilities.BrowserUtils;
 import src.automation.java.utilities.Driver;
-import tests.AbstractTestBase;
+
 
 
 public class UserStory_4_AC_10 extends AbstractTestBase {

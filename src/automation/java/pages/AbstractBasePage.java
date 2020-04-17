@@ -3,7 +3,7 @@ package src.automation.java.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utilities.Driver;
+import src.automation.java.utilities.Driver;
 
 public abstract class AbstractBasePage {
 
