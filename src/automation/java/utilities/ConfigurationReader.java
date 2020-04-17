@@ -1,4 +1,4 @@
-package utilities;
+package src.automation.java.utilities;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

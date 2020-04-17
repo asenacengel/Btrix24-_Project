@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a631ea05-11b5-4ba2-9650-c8e62d89c28d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/automation/java/pages/US6Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/automation/java/tests/US6Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/pages/US5_MoreTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/pages/US5Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automation/java/tests/US_5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automation/java/tests/US5Tests.java" afterDir="false" />
-    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+
   </component>
   <component name="ProjectId" id="1aKaWdZFmzq4BKOM0NIZJyERoVJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -31,17 +26,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="TestNG.US6Tests.AC2">
-    <configuration name="LoginTest.verifyPageTitle (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FilterAndSearchTest.saveFilterFuncntion">
+    <configuration name="FilterAndSearchTest.AC1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project" />
       <extension name="coverage">
         <pattern>
@@ -50,79 +45,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.verifyPageTitle (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US5Tests.createGoogleDocs" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US5Tests" />
-      <option name="METHOD_NAME" value="createGoogleDocs" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US5Tests.uploadFilesAndImages" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US5Tests" />
-      <option name="METHOD_NAME" value="uploadFilesAndImages" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US6Tests.AC1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Btrix24-_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US6Tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FilterAndSearchTest" />
       <option name="METHOD_NAME" value="AC1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -131,7 +54,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US6Tests.AC1_upload" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterAndSearchTest.filterSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +63,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US6Tests" />
-      <option name="METHOD_NAME" value="AC1_upload" />
+      <option name="MAIN_CLASS_NAME" value="tests.FilterAndSearchTest" />
+      <option name="METHOD_NAME" value="filterSearchBox" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US6Tests.AC2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterAndSearchTest.saveFilterFuncntion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Btrix24-_Project" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +81,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US6Tests" />
-      <option name="METHOD_NAME" value="AC2" />
+      <option name="MAIN_CLASS_NAME" value="tests.FilterAndSearchTest" />
+      <option name="METHOD_NAME" value="saveFilterFuncntion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterAndSearchTest.searchFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FilterAndSearchTest" />
+      <option name="METHOD_NAME" value="searchFunctionality" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Btrix24-_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -169,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US6Tests.AC2" />
-        <item itemvalue="TestNG.US6Tests.AC1_upload" />
-        <item itemvalue="TestNG.US6Tests.AC1" />
-        <item itemvalue="TestNG.US5Tests.createGoogleDocs" />
-        <item itemvalue="TestNG.US5Tests.uploadFilesAndImages" />
+        <item itemvalue="TestNG.FilterAndSearchTest.saveFilterFuncntion" />
+        <item itemvalue="TestNG.FilterAndSearchTest.searchFunctionality" />
+        <item itemvalue="TestNG.FilterAndSearchTest.filterSearchBox" />
+        <item itemvalue="TestNG.LoginTest.verifyPageTitle" />
+        <item itemvalue="TestNG.FilterAndSearchTest.AC1" />
       </list>
     </recent_temporary>
   </component>
@@ -211,49 +170,48 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="target" />
-    <option name="LAST_COMMIT_MESSAGE" value="target" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/userstory2'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;src/test/java/com/pages/ActiveStreamPage.java&#10;#&#9;src/test/java/com/pages/DownloadTestBase.java&#10;#&#9;src/test/java/com/pages/LoginPage.java&#10;#&#9;src/test/java/com/tests/AbstractTestBase.java&#10;#&#9;src/test/java/com/tests/LoginTest.java&#10;#&#9;src/test/java/com/tests/UserStory_11_AC1_2_3.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_6_AddMention.java&#10;#&#9;src/test/java/com/utilities/BrowserUtils.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/userstory2'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;src/test/java/com/pages/ActiveStreamPage.java&#10;#&#9;src/test/java/com/pages/DownloadTestBase.java&#10;#&#9;src/test/java/com/pages/LoginPage.java&#10;#&#9;src/test/java/com/tests/AbstractTestBase.java&#10;#&#9;src/test/java/com/tests/LoginTest.java&#10;#&#9;src/test/java/com/tests/UserStory_11_AC1_2_3.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_5_CreateQuote.java&#10;#&#9;src/test/java/com/tests/UserStory_1_AC_6_AddMention.java&#10;#&#9;src/test/java/com/utilities/BrowserUtils.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="209" key="#Project_Structure" timestamp="1586496597690">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="488" y="209" key="#Project_Structure/0.23.1792.1042@0.23.1792.1042" timestamp="1586496597690" />
-    <state x="-1558" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587101924484">
-      <screen x="-1920" y="0" width="1280" height="693" />
+    <state x="537" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586737746170">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-1558" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1280.693/0.0.1600.860/1600.0.1600.860@-1920.0.1280.693" timestamp="1587101924484" />
-    <state x="626" y="298" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586498302164">
-      <screen x="0" y="23" width="1792" height="1042" />
-    </state>
+    <state x="537" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586737746170" />
     <state x="626" y="298" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1586498302164" />
-    <state x="479" y="144" key="CommitChangelistDialog2" timestamp="1586490709539">
-      <screen x="0" y="23" width="1792" height="1042" />
+    <state x="385" y="0" key="CommitChangelistDialog2" timestamp="1587011891132">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="385" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587011891132" />
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1042@0.23.1792.1042" timestamp="1586490709539" />
-    <state x="-1499" y="95" key="FileChooserDialogImpl" timestamp="1587096225737">
-      <screen x="-1920" y="0" width="1280" height="693" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587069422747">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="-1499" y="95" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1600.860/1600.0.1600.860@-1920.0.1280.693" timestamp="1587096225737" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587104549167">
-      <screen x="-1920" y="0" width="1280" height="693" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1600.860/1600.0.1600.860@-1920.0.1280.693" timestamp="1587104549167" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587069422747" />
     <state width="1735" height="285" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587104549167">
-      <screen x="-1920" y="0" width="1280" height="693" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587069422747">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1600.860/1600.0.1600.860@-1920.0.1280.693" timestamp="1587104549167" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587069422747" />
     <state width="1735" height="285" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587104549167">
-      <screen x="-1920" y="0" width="1280" height="693" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587069422747">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1600.860/1600.0.1600.860@-1920.0.1280.693" timestamp="1587104549167" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587069422747" />
     <state width="1735" height="285" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229323" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587104549167">
-      <screen x="-1920" y="0" width="1280" height="693" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587069422747">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1600.860/1600.0.1600.860@-1920.0.1280.693" timestamp="1587104549167" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587069422747" />
     <state width="1735" height="285" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586554229324" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1586655190976">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586655190976" />
     <state x="496" y="284" key="Vcs.Push.Dialog.v2" timestamp="1586490726638">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
