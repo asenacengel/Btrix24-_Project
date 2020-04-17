@@ -3,7 +3,6 @@ package src.automation.java.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import src.automation.java.utilities.Driver;
 
 public class ActiveStreamPage extends AbstractBasePage {
 
