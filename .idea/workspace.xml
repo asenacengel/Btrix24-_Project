@@ -29,6 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebOrdersAutomation2020" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -191,6 +192,10 @@
       <screen x="-1920" y="0" width="1280" height="693" />
     </state>
     <state x="-1827" y="93" width="1095" height="495" key="DiffContextDialog/-1920.0.1280.693/0.0.1600.860/1600.0.1600.860@-1920.0.1280.693" timestamp="1587146481155" />
+    <state x="-1499" y="95" key="FileChooserDialogImpl" timestamp="1587148823736">
+      <screen x="-1920" y="0" width="1280" height="693" />
+    </state>
+    <state x="-1499" y="95" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1600.860/1600.0.1600.860@-1920.0.1280.693" timestamp="1587148823736" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587069422747">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
