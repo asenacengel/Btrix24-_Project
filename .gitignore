@@ -3,3 +3,17 @@
 target
 .DS_Store
 test-output
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iws
+
+
+# Maven
+log/
+target/

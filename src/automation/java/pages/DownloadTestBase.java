@@ -1,7 +1,7 @@
 package src.automation.java.pages;
 
 import org.openqa.selenium.By;
-import tests.AbstractTestBase;
+import src.automation.java.tests.AbstractTestBase;
 
 
 public class DownloadTestBase extends AbstractTestBase {

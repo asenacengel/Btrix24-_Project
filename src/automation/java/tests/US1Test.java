@@ -2,11 +2,16 @@ package src.automation.java.tests;
 
 import org.testng.annotations.Test;
 
-import pages.LoginPage;
+
 import pages.Message;
+import src.automation.java.pages.LoginPage;
+
+import src.automation.java.pages.LoginPage;
+import src.automation.java.pages.Message;
+
 import src.automation.java.utilities.BrowserUtils;
 
-public class US1Test extends tests.AbstractTestBase {
+public class US1Test extends AbstractTestBase {
     /*
 userstory1. As a user, I should be able to send messages by clicking on Message tab under Active Stream.
 

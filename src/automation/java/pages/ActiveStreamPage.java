@@ -3,7 +3,6 @@ package src.automation.java.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import src.automation.java.utilities.Driver;
 
 public class ActiveStreamPage extends AbstractBasePage {
 
@@ -63,11 +62,50 @@ public class ActiveStreamPage extends AbstractBasePage {
     @FindBy(id="blg-post-img-838")
     public WebElement displayPoll;
 
+    @FindBy(xpath = "//span[@id='bx-b-video-blogPostForm']")
+    public WebElement videoIcon;
 
+    @FindBy(id = "video_idPostFormLHE_blogPostForm-source")
+    public WebElement videoLinkBox;
+
+    @FindBy(xpath = "//input[@id='undefined']")
+    public WebElement saveVideo;
+
+    @FindBy(id = "lhe_button_editor_blogPostForm")
+    public WebElement textEditorIcon;
+
+    @FindBy(id = "bx-html-editor-tlbr-idPostFormLHE_blogPostForm")
+    public WebElement textBar;
+
+    @FindBy(id = "lhe_button_title_blogPostForm")
+    public WebElement topicIcon;
+
+    @FindBy(xpath = "//input[@id='POST_TITLE']")
+    public WebElement topicBar;
+
+    @FindBy(xpath = "//*[@id=\"post-buttons-bottom\"]/span[7]")
+    public WebElement recordButton;
+
+    @FindBy (xpath= "//*[@id=\"bx-popup-videomessage-popup\"]/div[3]/span[1]")
+    public WebElement allowAccess;
+
+    @FindBy (xpath= "//*[@id=\"popup-window-titlebar-bx-popup-videomessage-popup\"]/span")
+    public WebElement error;
+
+
+    @FindBy (id="popup-window-content-bx-popup-videomessage-popup")
+    public WebElement errorMessage;
+    
 
     public String getText(){
 
        return text.getText();
+    }
+    
+    public void linkForVideo(String link) {
+
+        videoLinkBox.sendKeys(link);
+
     }
 
 }
