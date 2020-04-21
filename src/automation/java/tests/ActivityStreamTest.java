@@ -1,6 +1,7 @@
 package tests;
 
 import org.testng.annotations.Test;
+import pages.ActivityStreamPage;
 import pages.LoginPage;
 import utilities.BrowserUtils;
 
@@ -13,6 +14,7 @@ public class ActivityStreamTest extends AbstractTestBase {
 
         LoginPage loginPage = new LoginPage();
         loginPage.login();
+
         ActivityStreamPage activityStreamPage = new ActivityStreamPage();
 
         activityStreamPage.clickToUploadFiles();

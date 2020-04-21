@@ -1,18 +1,11 @@
-package src.automation.java.tests;
+package tests;
 
 import org.testng.Assert;
-
-
 import org.testng.annotations.Test;
-
-
-
-import src.automation.java.pages.FilterAndSearchPage;
-import src.automation.java.pages.LoginPage;
-import src.automation.java.utilities.BrowserUtils;
-import src.automation.java.utilities.Driver;
-
-
+import pages.FilterAndSearchPage;
+import pages.LoginPage;
+import utilities.BrowserUtils;
+import utilities.Driver;
 
 
 public class LoginTest extends AbstractTestBase {

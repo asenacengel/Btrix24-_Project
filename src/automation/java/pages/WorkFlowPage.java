@@ -1,4 +1,4 @@
-package src.automation.java.pages;
+package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -6,12 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import src.automation.java.utilities.BrowserUtils;
+import utilities.BrowserUtils;
 
 public class WorkFlowPage extends AbstractBasePage {
-
-
-
 
 
         // Set up the branch

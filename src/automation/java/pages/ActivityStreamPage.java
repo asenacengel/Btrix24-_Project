@@ -1,13 +1,12 @@
 package pages;
 
-
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import utilities.BrowserUtils;
 
 public class ActivityStreamPage extends AbstractBasePage {
-
 
     @FindBy(id = "POST_TITLE")
     private WebElement topic;
@@ -133,13 +132,13 @@ public class ActivityStreamPage extends AbstractBasePage {
         wait.until(ExpectedConditions.visibilityOf(sendMessageField)).click();
         driver.switchTo().frame(0);
         driver.switchTo().defaultContent();
-        src.automation.java.utilities.BrowserUtils.wait(2);
+        BrowserUtils.wait(2);
         uploadFile.click();
 
     }
 
     public void uploadPomFileFromLocalDisk(/**String titleMessage**/) {
-        src.automation.java.utilities.BrowserUtils.wait(2);
+        BrowserUtils.wait(2);
         sendFile.sendKeys(System.getProperty("user.dir") + "/pom.xml");
 //        sendMessageField.sendKeys(titleMessage);
 //        wait.until(ExpectedConditions.elementToBeClickable(sendButton)).click();

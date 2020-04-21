@@ -1,10 +1,10 @@
-package src.automation.java.pages;
+package pages;
 
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import src.automation.java.utilities.BrowserUtils;
+import utilities.BrowserUtils;
 
 
 import java.util.Arrays;
@@ -92,10 +92,6 @@ public class FilterAndSearchPage extends AbstractBasePage {
 
     @FindBy(xpath = "//span[text()='Restore default fields']")
     private WebElement defaultFields;
-
-
-
-
 
 
     // Opening search box option

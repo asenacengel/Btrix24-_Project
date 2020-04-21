@@ -1,4 +1,4 @@
-package src.automation.java.tests;
+package tests;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -8,9 +8,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-import src.automation.java.utilities.BrowserUtils;
-import src.automation.java.utilities.ConfigurationReader;
-import src.automation.java.utilities.Driver;
+import utilities.BrowserUtils;
+import utilities.ConfigurationReader;
+import utilities.Driver;
 
 
 import java.io.IOException;
