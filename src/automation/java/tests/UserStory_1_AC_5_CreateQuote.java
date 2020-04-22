@@ -10,13 +10,14 @@ import src.automation.java.utilities.BrowserUtils;
 import src.automation.java.utilities.Driver;
 
 
-
 public class UserStory_1_AC_5_CreateQuote extends AbstractTestBase {
 
     @Test(description = "Creating quote from the send message box")
     public void test() throws InterruptedException {
 
+
         extentTest = extentReports.createTest("User should be able to create quote from the send message box");
+
 
         LoginPage loginPage = new LoginPage();
         loginPage.login();
