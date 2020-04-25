@@ -1,24 +1,23 @@
-package tests;
+package  src.automation.java.utilities.tests;
 
 import org.testng.annotations.Test;
-import pages.LoginPage;
-import utilities.BrowserUtils;
 
-public class ActivityStreamTest extends AbstractTestBase {
+
+public class ActivityStreamTest extends src.automation.java.tests.AbstractTestBase {
 
 
     @Test(description = "UserStory №7: AC_№1")
     public void uploadFileFromLocalDisk() {
         extentTest = extentReports.createTest("Verify could upload File from Local Disk");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
 
         activityStreamPage.clickToUploadFiles();
         activityStreamPage.uploadPomFileFromLocalDisk();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("We could upload the \"pom.xml\" file ");
 
     }
@@ -27,15 +26,15 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void downloadFileFromExternalDrive() {
         extentTest = extentReports.createTest("Verify could upload File from Local Disk");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
 
         activityStreamPage.clickToUploadFiles();
         activityStreamPage.downloadFromExternalDrive();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("File downloaded from external Local Disk");
     }
 
@@ -43,15 +42,15 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void downloadDocumentFromBixtrix24() {
         extentTest = extentReports.createTest("Verify could download from Bitrix24");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
 
         activityStreamPage.clickToUploadFiles();
         activityStreamPage.downloadFromBitrix();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("Downloaded from Bitrix24");
     }
 
@@ -59,15 +58,15 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void createFilesToUpload() {
         extentTest = extentReports.createTest("Verify could create Files to Upload");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
 
         activityStreamPage.clickToUploadFiles();
         activityStreamPage.createFileToUpload();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("Files Created");
     }
 
@@ -75,15 +74,15 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void addRecipientsFromRecent() {
         extentTest = extentReports.createTest("Verify could add Users from Recent");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
 
         activityStreamPage.goAnnouncementClickMore();
         activityStreamPage.addUserFromRecent();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("We added user from Recent list");
     }
 
@@ -91,15 +90,15 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void addRecipientsFromEmployeesAndDepartments() {
         extentTest = extentReports.createTest("Verify could add Users from Employees And Departments");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
 
         activityStreamPage.goAnnouncementClickMore();
         activityStreamPage.addUserFromEmployeesAndDepartments();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("We added user from Employees And Departments list");
     }
 
@@ -107,15 +106,15 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void addRecipientsFromEmail() {
         extentTest = extentReports.createTest("Verify could add Users from E-mail");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
 
         activityStreamPage.goAnnouncementClickMore();
         activityStreamPage.addUserFromEmail();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("We added user from E-mail");
     }
 
@@ -123,15 +122,15 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void attachLink() {
         extentTest = extentReports.createTest("Verify could attach a link");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
         activityStreamPage.goAnnouncement();
         activityStreamPage.addLink("Hello B15", "www.yandex.ru");
         activityStreamPage.addRecipientAndSendLink();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("We attached a link");
     }
 
@@ -139,14 +138,14 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void insertVideoURL() {
         extentTest = extentReports.createTest("Verify could add a link");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
         activityStreamPage.goAnnouncement();
         activityStreamPage.addTheVideoURL("www.youtube.ru");
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("We added a link");
     }
 
@@ -154,14 +153,14 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void creatingAQuote() {
         extentTest = extentReports.createTest("Verify could create a quote");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
         activityStreamPage.goAnnouncement();
         activityStreamPage.createQuote();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("Quote created");
 
     }
@@ -170,14 +169,14 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void addMention() {
         extentTest = extentReports.createTest("Verify to add mention for a user from the list");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
         activityStreamPage.goAnnouncement();
         activityStreamPage.addMention();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("User mention added");
 
     }
@@ -186,14 +185,14 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void clickVisualEditorToSeeEditorBar() {
         extentTest = extentReports.createTest("Verify Visual Editor bar is Visible");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
         activityStreamPage.goAnnouncement();
         activityStreamPage.clickVisualEditor();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("We saw it (The Visual Editor Bar)");
     }
 
@@ -201,14 +200,14 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void clickOnTheTopicItem() {
         extentTest = extentReports.createTest("Verify we can send topic Title");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
         activityStreamPage.goAnnouncement();
         activityStreamPage.addTopic("I Love The World");
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("Topic title added");
     }
 
@@ -216,14 +215,14 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void clickOnRecordVideo() {
         extentTest = extentReports.createTest("Verify record video is clickable");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
         activityStreamPage.goAnnouncement();
         activityStreamPage.clickRecordVideo();
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("Record Video is clickable");
     }
 
@@ -231,14 +230,14 @@ public class ActivityStreamTest extends AbstractTestBase {
     public void addTag() {
         extentTest = extentReports.createTest("Verify we can create or add a Tag");
 
-        LoginPage loginPage = new LoginPage();
+        src.automation.java.pages.LoginPage loginPage = new src.automation.java.pages.LoginPage();
         loginPage.login();
 
-        ActivityStreamPage activityStreamPage = new ActivityStreamPage();
+        pages.ActivityStreamPage activityStreamPage = new pages.ActivityStreamPage();
         activityStreamPage.goAnnouncement();
         activityStreamPage.createTag("#faraon_B15");
 
-        BrowserUtils.wait(2);
+        src.automation.java.utilities.BrowserUtils.wait(2);
         extentTest.pass("Tag was added/created");
     }
 }
